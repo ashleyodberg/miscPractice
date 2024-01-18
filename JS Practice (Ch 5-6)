@@ -1,0 +1,128 @@
+/*console.log(true);
+console.log(typeof true);
+console.log(typeof false);
+
+console.log(typeof true);
+console.log(typeof "true");*/
+
+//explore how boolean converts various non-boolean values
+/*console.log(Boolean("true"));
+console.log(Boolean("TRUE"));
+console.log(Boolean(0));
+console.log(Boolean(1));
+console.log(Boolean(''));
+console.log(Boolean('LaunchCode'));
+console.log(Boolean(' '));
+
+//boolean expressions practice
+/*console.log(5 == 5);
+console.log(5 == 6);
+console.log(true == "true");*/
+
+/*let num = 7;
+
+if (num % 2 === 0) {
+    if (num % 2 === 1) {
+        console.log("odd");
+    }
+}*/
+
+//Loose Equality With ==
+/*console.log(7 == "7");
+console.log(0 == false);
+console.log(0 == '');
+
+console.log('0' == 0);
+console.log(0 == '');
+console.log('0' == '');
+
+console.log(7 === "7");
+console.log(0 === false);
+console.log(0 === '');
+console.log(4 == "4");*/
+
+//Logical AND practice - Ch 5
+console.log(7 > 5 && 5 > 3);
+console.log(7 > 5 && 2 > 3);
+console.log(2 > 3 && 'dog' === 'cat');
+
+// Logical OR practice - Ch 5 https://education.launchcode.org/intro-to-web-dev-curriculum/decisions-with-conditionals/reading/logical-operators/index.html
+console.log(7 > 5 || 5 > 3);
+console.log(7 > 5 || 2 > 3);
+console.log(2 > 3 || 'dog' === 'cat');
+
+//Logical NOT practice
+console.log(!true);
+console.log(!false);
+
+console.log(!(5 > 7));
+console.log(!('dog' === 'cat'));
+
+// Conditionals - ch 5
+/*let billHasBeenPaid = false;
+
+if (!billHasBeenPaid) {
+    console.log("Your bill is due soon!");
+}
+
+if (num % 2 === 0 && num > 3) {
+    console.log(num, "is even");
+    console.log(num, "is greater than 3");
+}*/
+
+/*let billHasBeenPaid = true;
+
+if (!billHasBeenPaid) {
+    console.log("Your bill is due soon!");
+} else {
+    console.log("Your payments are up to date.");
+}
+
+let x = 10;
+let y = 20;
+
+if (x > y) {
+    console.log("x is greater than y");
+} else if (x < y) {
+    console.log("x is less than y");
+} else { 
+    console.log("x and y are equal");
+}
+
+let a = 7;
+if (a % 2 === 1) {
+    console.log("Launch");
+} else if (a > 5) {
+    console.log("Code");
+} else { 
+    console.log("LaunchCode")
+} 
+
+let num = 7;
+
+if (num % 2 === 0) {
+    console.log("EVEN");
+}
+
+if (num > 0) {
+    console.log("POSITIVE");
+}*/
+
+
+/*let num = 7;
+
+if (num % 2 === 0) {
+    console.log("EVEN");
+
+    if (num > 0) {
+        console.log("POSITIVE");
+    }
+}*/
+
+let num = 7;
+
+if (num % 2 === 0) {
+    if (num % 2 === 1) {
+        console.log("odd");
+    }
+}
